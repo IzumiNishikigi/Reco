@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- EditText for entering the old answer -->
+    <EditText
+        android:id="@+id/old_answer_edit_text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/old_answer"
+        android:inputType="text"
+        android:autofillHints="old_answer"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:minHeight="48dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <!-- Spinner for selecting a new question -->
+    <Spinner
+        android:id="@+id/new_question_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/old_answer_edit_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:minHeight="48dp"/>
+
+    <!-- EditText for entering the new answer -->
+    <EditText
+        android:id="@+id/new_answer_edit_text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_answer"
+        android:inputType="text"
+        android:autofillHints="new_answer"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/new_question_spinner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:minHeight="48dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <!-- Button for resetting the security question -->
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/new_answer_edit_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:minHeight="48dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

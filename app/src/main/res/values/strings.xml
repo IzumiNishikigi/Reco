@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reco</string>
+    <string name="app_name_text">App Name</string>
+    <string name="app_name_placeholder">App Name</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="accessibility_service_description">Provides app lock functionality by monitoring and managing app access.</string>
+    <string name="accessibility_service_label">App Lock Service</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="confirm">Confirm</string>
+    <string name="activate_admin_rights">Activate Admin Rights</string>
+    <string name="enable_admin_rights">Enable Admin Rights</string>
+    <string name="enable_intruder_selfie">Enable Intruder Selfie</string>
+    <string name="selfie_image" />
+    <string name="app_icon_description">App Icon</string>
+    <string name="ContDesc">Any app</string>
+    <string name="set_your_pattern">Set Your Pattern</string>
+    <string name="set_pattern_or_pin">Set Pattern or PIN</string>
+    <string name="set_pattern">Set Pattern</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="draw_pattern_to_unlock">Draw pattern to unlock\n</string>
+    <string name="pattern_lock_view_description">Draw the pattern to unlock</string>
+    <string name="set_your_new_pattern">Set your new pattern</string>
+    <string name="draw_your_pattern_to_unlock">Draw your pattern to unlock</string>
+    <string name="draw_your_pattern_to_set_a_new_password">Draw your pattern to set a new password</string>
+    <string name="draw_your_pattern_to_unlock_the_application">Draw your pattern to unlock the application</string>
+    <string name="save">save</string>
+    <string name="your_answer">user answer</string>
+    <string name="security_question">security question</string>
+    <string name="verify">verify answer</string>
+    <string name="old_answer">old answer</string>
+    <string name="new_answer">new answer</string>
+    <string name="reset">reset</string>
+    <string name="clear_all_notifications">Clear All Notifications</string>
+    <string name="set_your_pin">Set Your PIN</string>
+    <string name="save_pin">Save PIN</string>
+    <string name="enter_your_pin">Enter Your PIN</string>
+    <string name="confirm_pin">Confirm pin</string>
+    <string name="remove">Remove</string>
+    <string name="notification_content">Notification Content</string>
+    <string name="app_name_notification">App Name</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_security_question">Change Security Question</string>
+    <string name="enable_accessibility_permission">Enable Accessibility Permission</string>
+    <string name="enable_camera_permission">Enable Camera Permission</string>
+    <string name="enable_notification_permission">Enable Notification Permission</string>
+    <string name="please_grant_the_necessary_permissions_to_continue">Please grant the necessary permissions to continue.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+
+</resources>
